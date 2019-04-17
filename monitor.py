@@ -111,12 +111,12 @@ if __name__ == '__main__':
                       action='store',
                       dest='sleep_time',
                       default=3,
-                      help='sec')
+                      help='sleeping time after getting the target(s)')
     parser.add_option('--max_time',
                       action='store',
                       dest='max_time',
                       default=20,
-                      help='sec')
+                      help='max sending successfully times')
     (options, args) = parser.parse_args()
     log_file = options.log_file
     smtp_adress = options.smtp_adress
