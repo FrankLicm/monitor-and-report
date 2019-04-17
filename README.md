@@ -30,5 +30,9 @@ Monitor a log file, when getting what you want,  report to a email
 
 ### Notice
 
-***Please setup your SMTP service of your email account first***
+**1. Please setup your SMTP service of your email account first.**
+
+**2. Sender email and recipient email can be the same or different. **
+
+
 
